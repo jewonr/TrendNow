@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+      <title>Document</title>
+  </head>
+  <body>
+      <header>
+          <div class="search">
+              <input type="text" id="searchtext">
+              <button id="submit">검색</button>
+          </div>
+          <div id="title">
+              <h1>TrendNOW</h1>
+          </div>
+      </header>
+      <div class="contents">
+          <div id="googlesearch">
+              <iframe id="trends-widget-1" title="trends-widget-1" src="https://trends.google.co.kr:443/trends/embed/explore/RELATED_QUERIES?req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22%22%2C%22geo%22%3A%22KR%22%2C%22time%22%3A%22today%2012-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D&amp;tz=-540&amp;eq=geo%3DKR%26q%3Dbts%26date%3Dtoday%2012-m" width="100%" frameborder="0" scrolling="0" style="border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.24) 0px 2px 2px 0px; height: 380px;"></iframe>
+          </div>
+          <div id="youtubesearch">
+            <div id="scrollview">
+              <iframe width="100%" src="" class="player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="100%" src="" class="player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="100%" src="" class="player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="100%" src="" class="player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="100%" src="" class="player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div id="timeseries">
+            <iframe id="trends-widget-2" title="trends-widget-2" src="https://trends.google.co.kr:443/trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22%22%2C%22geo%22%3A%22KR%22%2C%22time%22%3A%22today%2012-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D&tz=-540&eq=q%3D1%26geo%3DKR%26date%3Dtoday%2012-m" frameborder="0" scrolling="0" style="border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.24) 0px 2px 2px 0px; height: 422px;"></iframe>
+          </div>
+      </div>
+  </body>
+  <script src="javascript/script.js"></script>
+</html>
